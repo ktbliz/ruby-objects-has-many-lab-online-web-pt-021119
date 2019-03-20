@@ -18,12 +18,12 @@ class Author
     a_post.author = self  
   end 
   
-  def songs 
-    @songs 
+  def posts 
+    @posts 
   end 
   
-  def self.song_count 
-    Song.all.length  
+  def self.post_count 
+    Post.all.length  
   end 
   
   
